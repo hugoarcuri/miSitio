@@ -1,0 +1,134 @@
+:root {
+    --color1:#464e57;
+    --color2:#1d6dbd;
+    --color3:#4393e2;
+    --color4:#a3a194;
+    --color5:#ebeef0;
+    --blanco:#fff;
+    --negro:#000;
+}
+
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0,0,0,.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+        
+}
+
+
+.header {
+    background-color:var(--color1);
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.h1 {
+    font-size: 3rem;
+    color:var(--blanco);
+    text-align: center;
+    
+}
+
+.h2 {
+    color: var(--color1);
+}
+
+.profe , .mensaje {
+    color: var(--color5);
+    font-weight: 700;
+}
+
+
+
+.icono {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--color4);
+    border-radius: 50%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--negro);
+}
+
+.main {
+    background-color: var(--color5);
+    min-height: 30rem;
+    box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+    width: 80%;
+    margin: 1rem auto;
+    padding: 3rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.main .h2 {
+    color: var(--blanco);
+    padding: 1rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+    
+}
+.h2 {
+    
+    text-align: center;
+}
+.materia {
+    color:var(--blanco);
+    background-color: var(--color1);
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+}
+.cards {
+    width: 20%;
+    margin: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color4);
+    box-shadow: 10px 10px 74px -26px rgba(0,0,0,0.75);
+}
+.cardText {
+    color: #fff;
+    background-color:var(--color1);
+    height: 6rem;
+    padding: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 4rem;
+    width: 100%;
+    background-color: var(--color1);
+}
+
+.footerText {
+    color: var(--blanco);
+}
